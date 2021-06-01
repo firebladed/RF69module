@@ -4,6 +4,9 @@ Simple PCB for HopeRF RFM69HCW exposing SPI interface and DIO to access SPI Bus
 - RFM69HCW SPI interface accessable on Chip Select 0
 - RFM69HCW DIO accessable via MCP23S08 IO expander on  Chip Select 1
 
+- NO internal Antenna
+- Antenna Attached Via Microcoaxial RF Connector
+
 Pin Connections 
 1. \~ALERT\~
 2. GND
