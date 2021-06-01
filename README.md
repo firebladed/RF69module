@@ -33,7 +33,7 @@ gpiom1: gpio@0 {
         gpio-controller;
         #gpio-cells = <2>;
         microchip,spi-present-mask = <0x01>;
-        reg = <0>;
+        reg = <1>;
         spi-max-frequency = <1000000>;
         interrupt-parent = <&gpio1>;
         interrupts = <8 IRQ_TYPE_LEVEL_LOW>;
